@@ -1,0 +1,43 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1348px;
+    height: 4221px;
+    background: url(/static/images/szwy.png) no-repeat top center/cover;
+    position: relative;
+}
+
+.role {
+    width: 320px;
+    height: 110px;
+    position: absolute;
+    top: 1600px;
+    left: 777px;
+}
+
+.roles {
+    width: 300px;
+    height: 110px;
+    position: absolute;
+    top: 1680px;
+    left: 843px;
+}
+
+.name {
+    display: inline-block;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ff655d;
+}
+
+.location {
+    font-size: 20px;
+    line-height: 34px;
+    text-align: justify;
+    color: #ffac77;
+    font-family: 'Microsoft YaHei';
+}

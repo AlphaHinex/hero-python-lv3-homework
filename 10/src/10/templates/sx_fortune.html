@@ -1,0 +1,20 @@
+{% extends "star_layout.html" %}
+
+{% block content %}
+<div class="content">
+	<div class="title">
+		<span class="photo"><img src="/static/images/{{fortune['photo']}}"></span>
+		<span class="text"> <!--在下方写你的代码--> <h4>{{fortune['name']}}</h4> <small>{{fortune['years']}}</small>
+			<p>
+				{{fortune['nature']}}
+			</p> </span>
+	</div>
+	<div class="fortune">
+		<p>
+			<h4 class="p1">运程综述</h4>
+			<!--在下方写你的代码-->
+			<span>{{fortune['overall']}}</span>
+		</p>
+	</div>
+</div>
+{% endblock%}
